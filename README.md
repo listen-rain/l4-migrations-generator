@@ -1,5 +1,11 @@
 # Laravel Migrations Generator
 
+[![Build Status](https://travis-ci.org/Xethron/migrations-generator.svg)](https://travis-ci.org/Xethron/migrations-generator)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Xethron/migrations-generator/badges/quality-score.png?s=41d919c6d044749cb8575bb936efbddc4cebc0d8)](https://scrutinizer-ci.com/g/Xethron/migrations-generator/)
+[![Latest Stable Version](https://poser.pugx.org/listenwei/migrations-generator/v/stable.png)](https://packagist.org/packages/listenwei/migrations-generator)
+[![Total Downloads](https://poser.pugx.org/listenwei/migrations-generator/downloads.png)](https://packagist.org/packages/listenwei/migrations-generator)
+[![License](https://poser.pugx.org/listenwei/migrations-generator/license.png)](https://packagist.org/packages/listenwei/migrations-generator)
+
 Generate Laravel4 Migrations from an existing database, including indexes and foreign keys!
 
 ## Laravel 4 installation
@@ -7,7 +13,7 @@ Generate Laravel4 Migrations from an existing database, including indexes and fo
 Edit your composer.json file to require `listenwei/migrations-generator` and run `composer update`
 ```json
 "require-dev" : {
-    "listenwei/l4-migrations-generator"
+    "listenwei/migrations-generator"
 }
 ```
 
@@ -31,3 +37,4 @@ Laravel Migrations Generator will first generate all the tables, columns and ind
 You can also specify the connection name if you are not using your default connection with `--connection="connection_name"`
 
 Run `php artisan help migrate:generate` for a list of options.
+
