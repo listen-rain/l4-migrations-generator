@@ -11,7 +11,7 @@ Generate Laravel4 Migrations from an existing database, including indexes and fo
 ## Laravel 4 installation
 
 ```bash
-composer require listenwei/l4-migrations-generator
+composer require listen-rain/l4-migrations-generator
 ```
 
 Next, add the following service providers:

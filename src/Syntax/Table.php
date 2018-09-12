@@ -1,8 +1,8 @@
-<?php namespace Xethron\MigrationsGenerator\Syntax;
+<?php namespace Listen\MigrationsGenerator\Syntax;
 
 /**
  * Class Table
- * @package Xethron\MigrationsGenerator\Syntax
+ * @package Listen\MigrationsGenerator\Syntax
  */
 abstract class Table extends \Way\Generators\Syntax\Table{
 

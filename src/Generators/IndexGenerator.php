@@ -1,4 +1,4 @@
-<?php namespace Xethron\MigrationsGenerator\Generators;
+<?php namespace Listen\MigrationsGenerator\Generators;
 
 
 class IndexGenerator {
